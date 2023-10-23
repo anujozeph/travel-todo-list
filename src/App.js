@@ -89,8 +89,11 @@ function PackingList({ items, onDeleteItem }) {
   );
 }
 
+function remove() {
+  console.log("remove");
+}
 function Item({ item, onDeleteItem }) {
-  console.log("remove later");
+  remove();
   return (
     <li>
       <input type="checkbox" />
